@@ -1,0 +1,12 @@
+<div *ngIf="user" class="container">
+    <div class="info-container">
+        <img [src]="user.imgUrl" alt="User Image">
+        <h2>{{user.name}}</h2>
+        <div class="info">
+            <p>Address: {{user.address}}</p>
+            <p>Age: {{user.age}} years old</p>
+            <p>Date of Birth: {{user.bday}}</p>
+            <p>Hobbies: {{user.hobbies}}</p>
+        </div>
+    </div>
+</div>
